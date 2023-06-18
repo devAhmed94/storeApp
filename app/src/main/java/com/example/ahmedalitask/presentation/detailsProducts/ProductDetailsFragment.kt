@@ -41,7 +41,6 @@ class ProductDetailsFragment : Fragment() {
             tvDes.text = productItem.description
             productItem.rating?.let { ratingBar.rating = it.rate.toFloat() }
         }
-
     }
 
 
